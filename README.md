@@ -28,6 +28,6 @@ available to the public
 
 ## The Team
   <img src="https://avatars.githubusercontent.com/u/59601878?v=4" alt="avatar" height="40" weight="40"> [Bala Murugan B](https://github.com/Bala0422) <br><br>
-  <img src="https://avatars.githubusercontent.com/u/34376214?v=4" alt="avatar" height="40" weight="40"> [Guhan M](https://github.com/guhan29) <br><br>
-  <img src="https://avatars.githubusercontent.com/u/60909829?v=4" alt="avatar" height="40" weight="40"> [Harsha Varshan V](https://github.com/harsha-vardhan-v) <br><br>
+  <img src="https://avatars.githubusercontent.com/u/60909829?v=4" alt="avatar" height="40" weight="40"> [Guhan M](https://github.com/guhan29) <br><br>
+  <img src="https://avatars.githubusercontent.com/u/34376214?v=4" alt="avatar" height="40" weight="40"> [Harsha Varshan V](https://github.com/harsha-vardhan-v) <br><br>
   <img src="https://avatars.githubusercontent.com/u/75216499?v=4" alt="avatar" height="40" weight="40"> [Oviya H](https://github.com/Oviya-H) <br><br>
