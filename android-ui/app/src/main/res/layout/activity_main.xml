@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/edittext_border"
+            android:id="@+id/username_login"
+            android:layout_margin="15dp"
+            android:hint="Username"/>
+
+        <EditText
+            android:id="@+id/phone_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/edittext_border"
+            android:hint="Mobile Number    "
+            android:inputType="number"
+            android:layout_below="@id/username_login"
+            android:layout_margin="15dp"
+            />
+        <EditText
+            android:id="@+id/password_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/edittext_border"
+            android:hint="Password       "
+            android:layout_below="@id/phone_signup"
+            android:inputType="textPassword"
+            android:layout_margin="15dp"
+            />
+        <EditText
+            android:id="@+id/repassword_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/edittext_border"
+            android:layout_below="@id/password_signup"
+            android:layout_centerHorizontal="true"
+            android:hint="Retype Password       "
+            android:inputType="textPassword"
+            android:layout_margin="15dp"
+            />
+
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/edittext_border"
+            android:id="@+id/city_signup"
+            android:layout_below="@id/repassword_signup"
+            android:layout_margin="15dp"
+            android:hint="City"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/edittext_border"
+            android:id="@+id/area_signup"
+            android:layout_below="@id/city_signup"
+            android:layout_margin="15dp"
+            android:hint="Area"/>
+
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/edittext_border"
+            android:id="@+id/pin_signup"
+            android:layout_below="@id/area_signup"
+            android:layout_margin="15dp"
+            android:hint="Pin"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/register_signup"
+            android:textColor="@color/black"
+            android:text="Register"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:background="@drawable/button_design"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/pin_signup"
+            />
+
+        <Button
+            android:id="@+id/login_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/register_signup"
+            android:background="@color/transparent"
+            android:textColor="@color/black"
+            android:text="already have an acccount? login here"
+
+            />
+
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

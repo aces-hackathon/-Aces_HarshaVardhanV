@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context=".home">
+
+    <TextView
+        android:id="@+id/report_home"
+        style="@style/Theme.AppCompat.Light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Report the problem"
+        android:textSize="25dp" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/add_report_home"
+        android:background="@drawable/ic_baseline_add_circle_24"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/report_home"/>
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="All Reports"
+        android:textColor="#008577"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/reportsListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/report_home"
+        android:layout_below="@+id/titleTextView"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report a Problem!</title>
+</head>
+<body>
+    <h1>Report a Problem here!</h1>
+
+    <form action="/api/reports/" method="post", enctype="multipart/form-data">
+        <label>Image File Upload</label>
+        <input type="file" name="img">
+
+        <label>Describe your problem</label>
+        <input type="text" name="desc">
+
+        <label>Your id</label>
+        <input type="text" name="userId">
+
+        <label>Department of concern</label>
+        <input type="text" name="dept">
+
+        <label>City</label>
+        <input type="text" name="city">
+
+        <input type="submit" value="Report">
+    </form>
+</body>
+</html>
