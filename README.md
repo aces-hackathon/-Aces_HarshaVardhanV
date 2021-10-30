@@ -1,7 +1,7 @@
 # Aces_HarshaVardhanV
 Smart city hackathon final code. An android app to report public issues to the municipal body
 
-## Smart India Hackathon
+## Smart City Hackathon
 > In a developing country like India we face a lot of public issue like street light failure, dirty streets, water leakage on streets, transformer failure. This system to issue a complaint is inefficient and time consuming.
 
 ### Solution:
