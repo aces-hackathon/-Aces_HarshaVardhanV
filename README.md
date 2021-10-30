@@ -16,12 +16,6 @@ available to the public
 
 ## ✨ Technical Stack
 
-<!-- Technical Stack description:
-Frontend: Android Studio
-Backend api: Node.js
-Databse: MongoDB
-Blockchain and Smart contracts: Ethereum Solidity -->
-
 <p align="center">
   <img width="800" align="center" src="/images/TechnicalStack.png" alt="demo"/>
 </p>
@@ -31,3 +25,9 @@ Blockchain and Smart contracts: Ethereum Solidity -->
  - Backend api ``Node.js``
  - Databse ``MongoDB``
  - Blockchain and Smart contracts ``Ethereum Solidity``
+
+## The Team
+  <img src="https://avatars.githubusercontent.com/u/59601878?v=4" alt="avatar" height="40" weight="40"> [Bala Murugan B](https://github.com/Bala0422) <br><br>
+  <img src="https://avatars.githubusercontent.com/u/34376214?v=4" alt="avatar" height="40" weight="40"> [Guhan M](https://github.com/guhan29) <br><br>
+  <img src="https://avatars.githubusercontent.com/u/60909829?v=4" alt="avatar" height="40" weight="40"> [Harsha Varshan V](https://github.com/harsha-vardhan-v) <br><br>
+  <img src="https://avatars.githubusercontent.com/u/75216499?v=4" alt="avatar" height="40" weight="40"> [Oviya H](https://github.com/Oviya-H) <br><br>
