@@ -14,6 +14,8 @@ track of it and solve it.
 - We use block chain technology to solve this problem which ensures that all reports are
 available to the public
 
+> [Click here for YouTube video explaination](https://youtu.be/hc06NpgI-I8)
+
 ## ✨ Technical Stack
 
 <p align="center">
